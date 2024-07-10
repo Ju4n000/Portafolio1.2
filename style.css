@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(99, 94, 92);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+main {
+    background-color: rgb(185, 183, 178);
+    background-image: url(IMAGENES/fondo2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.socialbar {
+    position: fixed;
+    right: 0;
+    top: 280px;
+    z-index: 2000;
+    background-color: rgb(80, 0, 0);
+
+
+}
+
+.socialbar ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+
+.socialbar ul li a {
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(80, 0, 0);
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.socialbar img {
+    width: 70px;
+    padding: 10px;
+}
+
+.socialbar ul li a:hover {
+    padding: 5px 10px;
+    background-color: rgb(19, 16, 16);
+
+}
+
+
+.barra-relleno {
+    background-color: rgb(22, 0, 0);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.texto-barra-relleno {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(145, 131, 112);
+    position: absolute;
+    white-space: nowrap;
+    animation: mover 20s linear infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+.barra-nav {
+    background-color: rgb(24, 19, 19);
+    color: rgb(172, 172, 172);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s; /* Transición suave para el efecto de deslizamiento */
+
+}
+
+.logo {
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.logo2 {
+    width: 150px;
+    z-index: 2000;
+    margin-top: 50px;
+   margin-left: 1720px;
+}
+
+.logo2:hover {
+    width: 180px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background-size: cover;
+    translate: -12px;
+
+
+}
+
+.portafolio-text {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: "League Gothic", sans-serif;
+    font-size: 45px;
+    margin-left: 20px;
+    color: rgb(204, 204, 204);
+
+}
+
+
+.enlace-especf {
+    color: rgb(150, 148, 146);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "League Gothic", sans-serif;
+    text-decoration: none;
+}
+
+.dibujos-enlace {
+    font-family: "League Gothic", sans-serif;
+    color: rgb(172, 169, 166);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.dibujos-enlace:hover {
+    color: rgb(206, 203, 203);
+    background-color: rgba(113, 22, 187, 0.363);
+}
+
+.enlace-especf:hover {
+    color: rgb(158, 139, 77);
+    text-shadow: 5px 5px rgb(77, 55, 26);
+    background-color: rgb(22, 0, 0);
+}
+
+.text {
+    display: flex;
+    list-style: none;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: end;
+    margin-left: 20px;
+}
+
+
+
+.foto {
+    width: 800px;
+}
+
+
+.card {
+    background-color: rgb(17, 15, 13);
+    display: flex;
+    background-image: url(IMAGENES/Ote.gif);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    padding-top: 100px;
+
+}
+
+.titulo {
+    font-size: 80px;
+    color: rgba(212, 212, 212, 0.685);
+    font-family: "League Gothic", sans-serif;
+    margin-bottom: 0;
+    text-shadow: 5px 5px 25px rgba(255, 255, 255, 0.534);
+
+}
+
+.descripcion {
+    font-size: 45px;
+    color: rgba(218, 218, 218, 0.623);
+    font-family: "League Gothic", sans-serif;
+    margin-top: 10px;
+}
+
+.info {
+    display: block;
+    margin-left: 100px;
+    margin-top: 180px;
+    margin-right: 380px;
+
+}
+
+.titulo-dibujos {
+    margin: 35px;
+    font-size: 80px;
+    color: rgba(212, 212, 212, 0.788);
+    font-family: "League Gothic", sans-serif;
+}
+
+.imagenes img {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+
+
+}
+
+.dibujos {
+    background-color: rgb(17, 14, 14);
+    padding: 45px;
+    background-image: url(IMAGENES/fondo.png);
+    padding-bottom: 100px;
+
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenes img:hover {
+    width: 510;
+    height: 510;
+    margin: 10px;
+    box-shadow: 10px 15px 10px rgba(14, 9, 7, 0.925);
+    border: 5px dashed rgba(223, 223, 223, 0.466);
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.titulo-skills {
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    color: rgb(63, 0, 0);
+}
+
+.text-skills {
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    color: rgb(68, 0, 0);
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.text-sub {
+    font-size: 35px;
+    color: rgb(172, 170, 168);
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.habilidades {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+.habilidades ul li {
+    list-style: none;
+}
+
+.foto-skills {
+    width: 600px;
+    margin-left: 200px;
+    margin-right: 100px;
+    
+}
+
+.contenedor-barras-foto {
+    display: flex;
+}
+
+
+.enlace-ig {
+    color: rgb(135, 70, 179);
+    text-decoration: none;
+}
+
+.enlace-ig:hover {
+    color: rgb(155, 23, 5);
+}
+
+
+
+
+#progressBar {
+    width: 1000px;
+    height: 55px;
+    background-color: #a19e9c;
+    /* Color de fondo */
+    margin-left: 30px;
+    border: solid 5px rgba(0, 0, 0, 0.377);
+
+}
+
+#progressBar::-webkit-progress-bar {
+    background-color: #8b8887;
+    /* Color de fondo */
+
+}
+
+#progressBar::-webkit-progress-bar:hover {
+    background-color: #746f6b;
+    box-shadow: 10px 8px rgba(2, 2, 2, 0.151);
+}
+
+#progressBar::-webkit-progress-value {
+    background-color: rgb(59, 14, 4);
+    border-right: solid 10px rgb(29, 14, 14);
+    /* Color de la barra de progreso */
+}
+
+#progressBar::-webkit-progress-value:hover {
+    background-color: rgb(34, 20, 19);
+    transition: background-color 200ms ease;
+    background-image: none;
+}
+
+.progress-bars {
+    display: block;
+    margin-top: 30px;
+}
+
+
+.contenedor-barra {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #a19e9c;
+    height: 80px;
+    width: 800px;
+    padding-right: 40px;
+    border: solid 5px rgb(119, 100, 93);
+
+
+}
+
+.percent {
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    color: rgb(68, 0, 0);
+    margin-left: 30px;
+}
+
+.titulo-proyectos {
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    color: rgb(63, 0, 0);
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.proyectos div {
+    display: flex;
+    align-items: center;
+}
+
+
+.contacto {
+    background-image: url(IMAGENES/fondo3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.titulo-contacto {
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    color: rgb(63, 0, 0);
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 80px;
+
+}
+
+
+.contenedor-contacto {
+    display: flex;
+}
+
+.formulario-contacto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px;
+    width: 30%;
+    right: 0;
+    background-color: #a19e9c;
+    background-image: url(IMAGENES/fondo-barra.png);
+    border-radius: 10px;
+    border: solid 5px rgba(71, 65, 62, 0.726);
+    font-size: 40px;
+    color: rgb(199, 195, 192);
+    font-family: "League Gothic", sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-size: cover;
+
+}
+
+.valores-contacto {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: rgb(204, 203, 202);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(112, 101, 93);
+    font-weight: bold;
+    outline-color: rgb(160, 147, 114);
+    border: solid 4px rgb(167, 160, 148);
+
+}
+
+.valores-contacto:hover {
+    border: solid 4px rgb(156, 134, 82);
+}
+
+.barras-contacto {
+    height: 56px;
+    padding-left: 10px;
+}
+
+.submit {
+    font-size: 45px;
+    color: rgb(114, 100, 92);
+    font-family: "League Gothic", sans-serif;
+    cursor: pointer;
+
+}
+
+.periodico {
+    width: 1000px;
+    margin-left: 45px;
+}
+
+
+.div-daily {
+    display: flex;
+}
+
+.end {
+    background-color: rgb(17, 15, 15);
+    height: 320px;
+    padding: 80px;
+}
+
+.enlaces-finales {
+    display: flex;
+    justify-content: center;
+}
+
+.enlace-end {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(190, 186, 179);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "League Gothic", sans-serif;
+    text-decoration: none;
+}
+
+.enlace-end:hover {
+    color: rgb(158, 23, 13);
+}
+
+.social-enlaces-finales ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.social-enlaces-finales ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.social-enlaces-finales ul li img {
+    width: 40px;
+    display: flex;
+}
+
+.slogan-final {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 181, 176);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "League Gothic", sans-serif;
+
+
+}
