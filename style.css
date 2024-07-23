@@ -541,3 +541,20 @@ html {
 
 
 }
+
+.click{
+    cursor: pointer;
+}
+
+.aspiraciones {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 40px;
+    color: #f0f0f09a;
+    font: 45px;
+}
+
+.aspiraciones-text {
+    color: #f1efee86;
+    font-weight: bold;
+    font-size: 18px;
+}
