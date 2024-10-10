@@ -402,7 +402,7 @@ html {
 
 
 .contacto {
-    background-image: url(images/fondo3.png);
+    background-image: url(images/fondo4.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -411,7 +411,7 @@ html {
 .titulo-contacto {
     font-family: "League Gothic", sans-serif;
     font-size: 80px;
-    color: rgb(63, 0, 0);
+    color: rgba(226, 226, 226, 0.582);
     text-align: left;
     margin-left: 100px;
     padding-top: 80px;
@@ -433,7 +433,6 @@ html {
     right: 0;
     background-color: #a19e9c;
     background-image: url(images/fondo-barra.png);
-    border-radius: 10px;
     border: solid 5px rgba(71, 65, 62, 0.726);
     font-size: 40px;
     color: rgb(199, 195, 192);
