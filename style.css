@@ -26,6 +26,8 @@ html {
 }
 
 
+
+
 .socialbar {
     position: fixed;
     right: 0;
@@ -152,27 +154,16 @@ html {
     font-size: 30px;
     font-family: "League Gothic", sans-serif;
     text-decoration: none;
+    transition: 0.1s;
 }
 
-.dibujos-enlace {
-    font-family: "League Gothic", sans-serif;
-    color: rgb(172, 169, 166);
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 30px;
-    text-decoration: none;
 
-}
-
-.dibujos-enlace:hover {
-    color: rgb(206, 203, 203);
-    background-color: rgba(113, 22, 187, 0.363);
-}
 
 .enlace-especf:hover {
-    color: rgb(158, 139, 77);
-    text-shadow: 5px 5px rgb(77, 55, 26);
+    color: rgb(155, 126, 98);
+    text-shadow: 10px 10px rgb(102, 4, 0);
     background-color: rgb(22, 0, 0);
+
 }
 
 .text {
@@ -360,6 +351,9 @@ html {
     background-image: none;
 }
 
+
+
+
 .progress-bars {
     display: block;
     margin-top: 30px;
@@ -375,8 +369,6 @@ html {
     width: 800px;
     padding-right: 40px;
     border: solid 5px rgb(119, 100, 93);
-
-
 }
 
 .percent {
