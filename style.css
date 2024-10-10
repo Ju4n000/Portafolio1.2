@@ -10,12 +10,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
     
 }
 
 main {
     background-color: rgb(185, 183, 178);
-    background-image: url(fondo2.png);
+    background-image: url(images/fondo2.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -197,10 +198,11 @@ html {
 .card {
     background-color: rgb(17, 15, 13);
     display: flex;
-    background-image: url(Ote.gif);
+    background-image: url(images/Ote.gif);
     background-repeat: no-repeat;
     background-attachment: cover;
     padding-top: 100px;
+    align-items: center;
 
 }
 
@@ -223,7 +225,6 @@ html {
 .info {
     display: block;
     margin-left: 100px;
-    margin-top: 180px;
     margin-right: 380px;
 
 }
@@ -246,7 +247,7 @@ html {
 .dibujos {
     background-color: rgb(17, 14, 14);
     padding: 45px;
-    background-image: url(fondo.png);
+    background-image: url(images/fondo.png);
     padding-bottom: 100px;
 
 }
@@ -401,7 +402,7 @@ html {
 
 
 .contacto {
-    background-image: url(fondo3.png);
+    background-image: url(images/fondo3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -431,7 +432,7 @@ html {
     width: 30%;
     right: 0;
     background-color: #a19e9c;
-    background-image: url(fondo-barra.png);
+    background-image: url(images/fondo-barra.png);
     border-radius: 10px;
     border: solid 5px rgba(71, 65, 62, 0.726);
     font-size: 40px;
