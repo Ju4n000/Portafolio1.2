@@ -19,6 +19,7 @@ main {
     background-image: url(images/fondo2.png);
     background-size: cover;
     background-attachment: fixed;
+    filter: brightness(120%);
 }
 
 html {
@@ -160,8 +161,9 @@ html {
 
 
 .enlace-especf:hover {
-    color: rgb(155, 126, 98);
-    text-shadow: 10px 10px rgb(102, 4, 0);
+    font-size: 34px;
+    color: rgb(155, 135, 98);
+    text-shadow: 20px 10px rgb(102, 4, 0);
     background-color: rgb(22, 0, 0);
 
 }
@@ -183,8 +185,12 @@ html {
 
 .foto {
     width: 800px;
+    transition: 0.2s;
 }
 
+.foto:hover {
+    filter: brightness(124%);
+}
 
 .card {
     background-color: rgb(17, 15, 13);
@@ -213,12 +219,18 @@ html {
     margin-top: 10px;
 }
 
+.bloque-minitexto-card{
+    display: flex;
+}
+
 .info {
     display: block;
     margin-left: 100px;
     margin-right: 380px;
 
 }
+
+
 
 .titulo-dibujos {
     margin: 35px;
@@ -296,9 +308,14 @@ html {
 
 .foto-skills {
     width: 600px;
-    margin-left: 200px;
+    margin-left: 120px;
     margin-right: 100px;
-    
+    transition: 0.3s;
+   
+}
+
+.foto-skills:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
 .contenedor-barras-foto {
@@ -357,6 +374,23 @@ html {
 .progress-bars {
     display: block;
     margin-top: 30px;
+    transition: 0.1s;
+}
+
+.skill1, .skill2, .skill3, .skill4{
+    transition: 0.1s;
+}
+.skill1:hover{
+    filter: brightness(110%);
+}
+.skill2:hover{
+    filter: brightness(110%);
+}
+.skill3:hover{
+    filter: brightness(110%);
+}
+.skill4:hover{
+    filter: brightness(110%);
 }
 
 
@@ -469,8 +503,9 @@ html {
 .periodico {
     width: 1000px;
     margin-left: 45px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    transition: 0.3s;
 }
-
 
 .div-daily {
     display: flex;
@@ -545,8 +580,23 @@ html {
     font: 45px;
 }
 
+.Hobbies {
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 42px;
+    color: #ebe9e79a;
+    font: 45px;
+    margin-left: 20px;
+}
+
 .aspiraciones-text {
     color: #eeebe986;
     font-weight: bold;
     font-size: 18px;
+}
+
+.hobbies-text {
+    color: #eeebe986;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
 }

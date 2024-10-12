@@ -10,3 +10,6 @@ window.onscroll = function () {
 }
 
 
+function enviarjaja(){
+    alert('Comentario enviado XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD')
+}
