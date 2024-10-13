@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    background-color: #c27ba0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1200px;
+    height: 40px;
+    font-size: 12px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.nav2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+.barrabusqueda {
+    height: 30px;
+    width: 90%;
+    margin: 0px 30px 0px 30px;
+    padding-left: 5px;
+
+}
+
+.nav3 {
+    margin: 0 auto;
+    background-color: #d8d6d5;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav3 a:hover {
+    text-decoration: underline #c27ba0 5px;
+}
+
+.header {
+    background-color: #c27ba0;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bs {
+    font-weight: 900;
+}
+
+
+.bstext {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sortby {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.contenedor {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+}
+
+
+
+.carrito {
+    width: 45px;
+}
+
+.carritodiv {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+
+.products {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.products div img {
+    width: 230px;
+    margin: 10px;
+}
+.products div h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Buy {
+    padding:5px 16px 5px 16px;
+    font-size: 20px;
+    background-color: #c27ba0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    animation: all ease 0.05s;
+    -webkit-animation: all ease 0.05s;
+    transition: all ease 0.05s;
+}
+
+.Buy:hover {
+    padding: 8px 20px 8px 20px;
+}

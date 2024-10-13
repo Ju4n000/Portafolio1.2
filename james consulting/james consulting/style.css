@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 1200px;
+    height: 60px;
+    background-color: #062134;
+    display: flex;
+
+
+    justify-content: space-between;
+
+    align-items: center;
+
+
+    margin: 0 auto;
+
+    height: 80px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+body {
+    background-color: #062134;
+}
+
+nav h1 {
+    color: aliceblue;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(197, 197, 197);
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.fotaza {
+    width: 100%;
+}
+
+.consulting {
+    color: #1a94e0;
+}
+
+.home {
+    color: #1a94e0;
+
+}
+
+.cuadrado img {
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px #1468a8;
+    margin-right: 10px;
+}
+
+.cuadrado {
+    background-color: #1468a8;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+
+p {
+    font-size: 14px;
+}
+
+
+.moreinfo {
+
+    background-image: linear-gradient(#4eb0ed 50%, #1990db 50%);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.moreinfo:hover {
+    background-image: linear-gradient(#8dc9ee 50%, #61b2e4 50%);
+}
+
+.cuadrados {
+    display: flex;
+    margin-top: 16px;
+    
+}
+
+.theworld {
+    color: #0b3655;
+    margin: 30px 15px 50px 15px;
+    width: 70%;
+}
+
+.theworld img {
+    width: 320px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.theworldsection {
+    display: flex;
+}
+
+.displaytitle {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.addinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial {
+    color: #093453;
+    margin: 30px 15px 15px 15px;
+    width: 30%;
+}
+
+.sect p {
+    color: #00406d;
+    padding-top: 20px;
+}
+
+.learn {
+    font-size: 14px;
+    color: #005fa3;
+    text-decoration: none;
+}
+
+.end {
+    text-align: center;
+    border-top: 2px solid rgb(141, 141, 141);
+    padding: 20px;
+   
+}
+
+.end a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(4, 136, 189);
+}
+
+.cita {
+    font-style: italic;
+    margin-right: 10px;
+}
+.services {
+    margin-right: 10px;
+}
+
+.projects {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clients {
+    margin-left: 10px;
+}
+
+
+

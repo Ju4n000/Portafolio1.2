@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #acacac;
+    background-image: url(fondo-barra2.png);
+    background-size: cover;
+    font-family: "League Gothic", sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+#paddle {
+    position: absolute;
+    bottom: 0px;
+    width: 120px;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+}
+
+#ball {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(100, 0, 0);
+}
+
+#score {
+    position: absolute;
+    font-size: 28px;
+    color: rgb(196, 196, 196);
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+}
+
+#start-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: rgb(182, 182, 182);
+    padding: 20px;
+    width: 100%;
+}
+
+#game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    text-align: center;
+    display: none;
+    background-color: black;
+    color: rgb(182, 182, 182);
+    padding: 10px 20px;
+}
+
+
